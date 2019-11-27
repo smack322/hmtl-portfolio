@@ -1,8 +1,53 @@
+body {
+
+}
+
 #header {
     border: 1px solid black;
 }
 
-h1 {
-    color: blue;
+.name {
+    background: #4aaaa5;
+    margin-left: 15%;
+    width: 225px;
+    padding: 20px 5px;
 }
+
+.about {
+    margin-left: 5%;
+}
+
+/* ul li {
+    float: right;
+    display: inline;
+
+} */
+
+  
+  #header a {
+      display: block;
+      text-align: right;
+      margin-right: 15%;
+      /* padding: 16px; */
+      /* overflow: hidden; */
+      
+
+  }
+
+  #header li {
+    list-style: none;
+  }
+
+  .container {
+      width: 960px;
+      margin: 0 auto;
+      border: 1px solid blue;
+      margin-top: 0px;
+  }
+
+  .footer {
+      border: 1px solid red;
+      text-align: center;
+      margin-top: 20px;
+  }
 
